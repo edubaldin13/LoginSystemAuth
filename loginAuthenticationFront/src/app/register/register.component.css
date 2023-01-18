@@ -1,0 +1,16 @@
+.register-page {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.register-page-form {
+  display: grid;
+  justify-content: center;
+  align-items: column;
+}
+input{
+    margin-bottom: 1rem;
+    border: 0,3px solid;
+    outline: none;
+}

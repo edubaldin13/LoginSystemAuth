@@ -1,0 +1,42 @@
+<button routerLink="">Voltar ao Login!</button>
+<div class="register-page" [formGroup]="registerInfo">
+  <form [formGroup]="registerInfo" class="register-page-form">
+    <label for=""></label>
+    <input type="name" placeholder="Example Name" formControlName="name" />
+    <input
+      type="username"
+      placeholder="example123"
+      formControlName="username"
+    />
+    <input
+      type="password"
+      name="password"
+      placeholder="********"
+      formControlName="password"
+    />
+    <input
+      type="text"
+      name="bio"
+      formControlName="bio"
+      placeholder="Example Bio"
+    />
+    <input
+      type="number"
+      name="phone"
+      formControlName="phone"
+      placeholder="19900000000"
+    />
+    <input
+      type="email"
+      placeholder="example@gmail.com"
+      formControlName="email"
+    />
+    <input type="email" placeholder="exemple@gmail.com" />
+    <input
+      type="button"
+      class="botao"
+      (click)="registrar()"
+      value="Registrar"
+    />
+  </form>
+</div>
